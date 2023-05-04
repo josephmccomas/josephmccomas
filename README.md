@@ -1,10 +1,10 @@
 ### <div align="center">I'm Joseph, a Full-Stack Developer!</div>  
   
 
-- I’m currently working on the [Tether-App](https://github.com/Tether-Group/tether-app), our bootcamp capstone project.  
+- I most recently completed the [Tether-App](https://github.com/Tether-Group/tether-app), our Codeup Full-Stack Web Dev bootcamp capstone project.  
   
 
-- I'm currently focused on strengthening my backend skills, emphasizing Javascript and React  
+- I'm currently focused on strengthening my backend skills, emphasizing Javascript and ReactJS
   
 
 - Fun fact: I am big on commenting my code into segments to ease readability and organization  
