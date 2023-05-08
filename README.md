@@ -4,10 +4,10 @@
 - I most recently completed the [Tether-App](https://github.com/Tether-Group/tether-app), our Codeup Full-Stack Web Dev bootcamp capstone project.  
   
 
-- I'm currently focused on strengthening my backend skills, emphasizing Javascript and ReactJS
+- I'm currently focused on strengthening my skills with additinal HTML / CSS / Javascript, and learning NodeJS to build up my backend knowledge.
   
 
-- Fun fact: I am big on commenting my code into segments to ease readability and organization  
+- Fun fact: I am big on commenting my code into segments to ease readability and organization.
   
 
 <br/>  
