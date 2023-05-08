@@ -1,10 +1,4 @@
-.container {
-    justify-content: center;
-    font-family: "Exo 2", sans-serif;
-    width: 600px;
-    color: ivory;
-    position: relative;
-}
+
 
 html, body{
     width:100%;
@@ -21,6 +15,14 @@ html, body{
     background: linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191d1e', endColorstr='#283139',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     background-attachment: fixed
+}
+
+.container {
+    justify-content: center;
+    font-family: "Exo 2", sans-serif;
+    width: 600px;
+    color: ivory;
+    position: relative;
 }
 
 #projector {
