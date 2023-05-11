@@ -1,5 +1,7 @@
 /* general styles */
-
+* {
+    --color-border-muted: #21262d;
+}
 html {
     min-height: 100%;
 }
@@ -349,4 +351,11 @@ Generic layout (demo looks)
     .header-links {
         display: none;
     }
+}
+
+/* GITHUB LANGUAGE STATS */
+
+.BorderGrid-cell {
+    display: table-cell;
+    border: 1px solid var(--color-border-muted);
 }
