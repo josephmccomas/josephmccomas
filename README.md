@@ -86,7 +86,7 @@
 <br/>  
 
 
-## Recent Blog Posts  
+<!-- ## Recent Blog Posts  
 <!-- BLOG-POST-LIST:START -->  
 If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
 <!-- BLOG-POST-LIST:END -->  
@@ -95,7 +95,7 @@ If things goes well, this section should automatically be replaced by a list of 
 
 ![Listening to on Spotify](https://spotify-github-profile.vercel.app/api/view?uid=315pqxrwmmbdzptkw22vf6becmay&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)  
 
-<br/>  
+<br/>   -->
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=josephmccomas&&style=flat-square" align="center" />
