@@ -86,16 +86,22 @@
 <br/>  
 
 
-<!-- ## Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->  
-If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
-<!-- BLOG-POST-LIST:END -->  
+[//]: # (<!-- ## Recent Blog Posts  )
 
-<br/>  
+[//]: # (<!-- BLOG-POST-LIST:START -->  )
 
-![Listening to on Spotify](https://spotify-github-profile.vercel.app/api/view?uid=315pqxrwmmbdzptkw22vf6becmay&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)  
+[//]: # (If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. )
 
-<br/>   -->
+[//]: # (<!-- BLOG-POST-LIST:END -->  )
+
+[//]: # ()
+[//]: # (<br/>  )
+
+[//]: # ()
+[//]: # (![Listening to on Spotify]&#40;https://spotify-github-profile.vercel.app/api/view?uid=315pqxrwmmbdzptkw22vf6becmay&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&#41;  )
+
+[//]: # ()
+[//]: # (<br/>   -->)
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=josephmccomas&&style=flat-square" align="center" />
