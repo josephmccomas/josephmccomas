@@ -1,16 +1,16 @@
 /* general styles */
 
+html {
+    min-height: 100%;
+}
+
 body {
     margin: 0;
     font-family: "Exo 2", sans-serif !important;
-    background-image: url("/img/bg-stars-1280.jpg");
-    background-size: cover;
-}
-
-body::before {
-    background-image: url("/img/Pattern_Dark.png");
-    opacity: 1.0;
-    z-index: -1;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-image: url("/img/gridbg-glow.png"), url("/img/bg-stars-2560.png");
 }
 
 * {
@@ -21,7 +21,7 @@ body::before {
 .nav {
     height: 50px;
     width: 100%;
-    background-color: #212121;
+    background-color: #0a2a3c;
     position: sticky;
 }
 
@@ -32,7 +32,7 @@ body::before {
 .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: 22px;
-    color: #007EFCFF;
+    color: #00e7ff;
     padding: 10px 10px 10px 10px;
 }
 
@@ -50,7 +50,7 @@ body::before {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #007EFCFF;
+    color: #00e7ff;
 }
 
 .nav > .nav-links > a:hover {
@@ -110,14 +110,15 @@ body::before {
 /*BODY STYLE START*/
 
 .typewriter h1 {
+    font-family: "Exo 2 light", cursive;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid gold; /* The typwriter cursor */
+    border-right: .15em #00e7ff; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation:
-            typing 3.5s steps(40, end),
-            blink-caret .75s step-end infinite;
+            typing 1s steps(40, end),
+            blink-caret .75s step-end;
 }
 
 /* The typing effect */
@@ -137,11 +138,11 @@ body::before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #007EFCFF;
+    color: #00e7ff;
 }
 .about-me {
     width: 70%;
-    border: #007EFCFF;
+    border: #00e7ff;
     border-style: solid none solid;
     border-width: 1px;
     border-radius: 5px;
@@ -150,16 +151,16 @@ body::before {
 
 .content-projects{
     object-position: center;
-    color: #007EFCFF;
+    color: #00e7ff;
 }
 
 article {
     --img-scale: 1.001;
-    --title-color: #007EFCFF;
+    --title-color: #00e7ff;
     --link-icon-translate: -20px;
     --link-icon-opacity: 0;
     position: relative;
-    border: 1px #007EFCFF;
+    border: 1px #00e7ff;
     border-radius: 16px;
     box-shadow: none;
     background: transparent;
@@ -174,13 +175,13 @@ article a::after {
     inset-inline: 0;
     cursor: pointer;
     content: "";
-    border: 1px solid #007EFCFF;
+    border: 1px solid #0077cb;
 }
 
 /* basic article elements styling */
 article h2 {
     margin: 0 0 18px 0;
-    font-family: "Exo 2", cursive;
+    font-family: "Exo 2 light", cursive;
     font-size: 1.9rem;
     letter-spacing: 0.06em;
     color: var(--title-color);
@@ -209,11 +210,11 @@ article a {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: #007EFCFF;
+    color: #00e7ff;
 }
 
 article a:focus {
-    outline: 1px dotted #007EFCFF;
+    outline: 1px dotted #00e7ff;
 }
 
 article a .icon {
@@ -229,7 +230,7 @@ article a .icon {
 /* using the has() relational pseudo selector to update our custom properties */
 article:has(:hover, :focus) {
     --img-scale: 1.1;
-    --title-color: #007EFCFF;
+    --title-color: #00e7ff;
     --link-icon-translate: 0;
     --link-icon-opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -309,20 +310,23 @@ Generic layout (demo looks)
 /* footer styles */
 
 .footer {
-    background-color: #212121;
+    background-color: #0a2a3c;
     height: auto;
     /*padding-top: 10px;*/
     text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer p {
-    color: #007EFCFF;
+    color: #00e7ff;
     font-weight: bold;
     font-size: 16px;
 }
 
 .social-links a {
-    color: white;
+    color: #00e7ff;
     padding: 0 5px 0 5px;
 }
 
