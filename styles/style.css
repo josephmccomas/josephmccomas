@@ -428,6 +428,7 @@ Generic layout (demo looks)
     justify-content: center;
     color: #00e7ff;
     margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 .tech-h1, .tech-h3 {
