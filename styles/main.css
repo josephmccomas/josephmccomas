@@ -1,6 +1,11 @@
 /* GENERAL STYLES */
-* {
-    --color-border-muted: #21262d;
+root {
+    --light-text-color: #000;
+    --stars-text-color: #00e7ff;
+    --dark-text-color: #81899b;
+    --light-back-color: #c9c6c6;
+    --stars-background: ;
+    --dark-back-color: #181818;
     box-sizing: border-box;
 }
 
@@ -8,41 +13,6 @@ html {
     min-height: 100%;
     scroll-behavior: smooth;
 }
-
-/*STICKY TOP-OF-PAGE BUTTON*/
-
-/*.container-top {*/
-/*    --offset: 100px;*/
-/*    --fade: 120px;*/
-
-/*    display: flex;*/
-/*    align-items: flex-end;*/
-/*    width: 60px;*/
-/*    justify-self: end;*/
-/*    justify-content: flex-end;*/
-/*    -webkit-mask: linear-gradient(#0000 calc(100vh + var(--offset)), #000 calc(100vh + var(--offset) + var(--fade)));*/
-/*}*/
-
-/*.top {*/
-/*    position: sticky;*/
-/*    bottom: 20px;*/
-/*    margin-right: 10px;*/
-
-/*    !* visual styling *!*/
-/*    width: 100%;*/
-/*    aspect-ratio: 1;*/
-/*    background: #ff8b24;*/
-/*    border-radius: 10px;*/
-/*}*/
-
-/*.top:before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    inset: 30%;*/
-/*    transform: translateY(20%) rotate(-45deg);*/
-/*    border-top: 5px solid #fff;*/
-/*    border-right: 5px solid #fff;*/
-/*}*/
 
 /* NAVBAR*/
 
