@@ -1,3 +1,126 @@
 root{
     --color-border-muted: #21262d;
+    --stars-text-color: #00e7ff;
+}
+
+body {
+    background-image: url("/img/gridbg-glow.png"), url("/img/bg-stars-2560.png");
+}
+
+/* NAVBAR*/
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #0a2a3c;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+    color: #00e7ff;
+}
+
+.nav > .nav-links > a {
+    color: #00e7ff;
+}
+
+.nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+    .nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav > .nav-btn > label > span {
+        border-top: 2px solid #eee;
+    }
+
+.typewriter h1 {
+    border-right: .15em #00e7ff; /* The typwriter cursor */
+}
+
+.content-about {
+    color: #00e7ff;
+}
+
+.about-me {
+    border: #00e7ff;
+}
+
+.content-projects {
+    object-position: center;
+    color: #00e7ff;
+}
+
+article {
+    --title-color: #00e7ff;
+    border: 1px #00e7ff;
+}
+
+article a::after {
+    border: 1px solid #0077cb;
+}
+
+/* ARTICLE ELEMENTS */
+
+article h2 {
+    color: var(--title-color);
+}
+
+article a {
+    color: #00e7ff;
+}
+
+article a:focus {
+    outline: 1px dotted #00e7ff;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+    --title-color: #00e7ff;
+}
+
+/* FOOTER STYLE */
+
+.footer {
+    height: auto;
+    /*padding-top: 10px;*/
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    color: #00e7ff;
+}
+
+.social-links {
+    padding: 1em 1em 2em 0;
+}
+
+.social-links a {
+    color: #00e7ff;
+}
+
+.social-links a:hover {
+    color: #323cff;
+}
+
+/* TECH-SPECS */
+
+.content-tech {
+    color: #00e7ff;
+}
+
+.tech-specs {
+    color: #00e7ff;
+    border: #00e7ff;
 }

@@ -1,5 +1,125 @@
 root {
     --text-color: #000;
-    --back-color: #c9c6c6;
 }
 
+body {
+    --back-color: #c2c1c1;
+}
+
+/* NAVBAR*/
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #0a2a3c;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+    color: #000;
+}
+
+.nav > .nav-links > a {
+    color: #000;
+}
+
+.nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > .nav-btn > label > span {
+    border-top: 2px solid #eee;
+}
+
+.typewriter h1 {
+    border-right: .15em #000; /* The typwriter cursor */
+}
+
+.content-about {
+    color: #000;
+}
+
+.about-me {
+    border: #000;
+}
+
+.content-projects {
+    object-position: center;
+    color: #000;
+}
+
+article {
+    --title-color: #000;
+    border: 1px #000;
+}
+
+article a::after {
+    border: 1px solid #000;
+}
+
+/* ARTICLE ELEMENTS */
+
+article h2 {
+    color: var(--title-color);
+}
+
+article a {
+    color: #000;
+}
+
+article a:focus {
+    outline: 1px dotted #000;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+    --title-color: #000;
+}
+
+/* FOOTER STYLE */
+
+.footer {
+    height: auto;
+    /*padding-top: 10px;*/
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    color: #000;
+}
+
+.social-links {
+    padding: 1em 1em 2em 0;
+}
+
+.social-links a {
+    color: #000;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+/* TECH-SPECS */
+
+.content-tech {
+    color: #000;
+}
+
+.tech-specs {
+    color: #000;
+    border: #000;
+}

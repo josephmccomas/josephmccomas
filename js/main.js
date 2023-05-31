@@ -7,11 +7,11 @@ for (let i of switches) {
 
 function setTheme(theme) {
     if (theme === 'light') {
-        document.getElementById('switcher-id').href = './themes/light.css';
+        document.getElementById('switcher-id').href = './styles/light.css';
     } else if (theme === 'stars') {
-        document.getElementById('switcher-id').href = './themes/stars.css';
+        document.getElementById('switcher-id').href = './styles/stars.css';
     } else if (theme === 'dark') {
-        document.getElementById('switcher-id').href = './themes/dark.css';
+        document.getElementById('switcher-id').href = './styles/dark.css';
     }
 }
 

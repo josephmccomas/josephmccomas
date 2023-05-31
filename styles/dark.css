@@ -1,0 +1,126 @@
+root{
+    --color-border-muted: #21262d;
+    --light-text-color: #000;
+}
+
+body {
+    --back-color: #252525;
+}
+
+/* NAVBAR*/
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #0a2a3c;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav > .nav-header {
+    display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+    color: #cbd0d0;
+}
+
+.nav > .nav-links > a {
+    color: #cbd0d0;
+}
+
+.nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > .nav-btn > label > span {
+    border-top: 2px solid #eee;
+}
+
+.typewriter h1 {
+    border-right: .15em #cbd0d0; /* The typwriter cursor */
+}
+
+.content-about {
+    color: #cbd0d0;
+}
+
+.about-me {
+    border: #cbd0d0;
+}
+
+.content-projects {
+    object-position: center;
+    color: #cbd0d0;
+}
+
+article {
+    --title-color: #cbd0d0;
+    border: 1px #cbd0d0;
+}
+
+article a::after {
+    border: 1px solid #777a7a;
+}
+
+/* ARTICLE ELEMENTS */
+
+article h2 {
+    color: var(--title-color);
+}
+
+article a {
+    color: #cbd0d0;
+}
+
+article a:focus {
+    outline: 1px dotted #cbd0d0;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+    --title-color: #cbd0d0;
+}
+
+/* FOOTER STYLE */
+
+.footer {
+    height: auto;
+    /*padding-top: 10px;*/
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    color: #cbd0d0;
+}
+
+.social-links {
+    padding: 1em 1em 2em 0;
+}
+
+.social-links a {
+    color: #cbd0d0;
+}
+
+.social-links a:hover {
+    color: #323cff;
+}
+
+/* TECH-SPECS */
+
+.content-tech {
+    color: #cbd0d0;
+}
+
+.tech-specs {
+    color: #cbd0d0;
+    border: #cbd0d0;
+}
