@@ -53,6 +53,11 @@ html {
     display: none;
 }
 
+.theme-switch{
+    display: inline-block;
+    align-items: center;
+}
+
 .page-anchors {
     display: inline-block;
     align-items: end;
